@@ -1,0 +1,120 @@
+# ==============================================================================
+# SECRETS, CREDENTIALS & TOKENS
+# ==============================================================================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+kaggle.json
+credentials.json
+client_secret*.json
+*.token
+token.json
+tokens.json
+secrets/
+*.secret
+
+# ==============================================================================
+# MODEL CHECKPOINTS & LARGE DATA ARTIFACTS
+# ==============================================================================
+# PyTorch / Keras / ONNX model weights
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+
+# Pickled features, embeddings, models
+*.pkl
+*.pickle
+*.joblib
+flickr30k_features.pkl
+
+# Datasets & Archive files
+data/
+dataset/
+datasets/
+images/
+flickr30k/
+kaggle/
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# ==============================================================================
+# PYTHON & ENVIRONMENTS
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# JUPYTER NOTEBOOKS & CACHES
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Experiment trackers & logs
+wandb/
+runs/
+lightning_logs/
+tensorboard/
+*.log
+
+# ==============================================================================
+# IDES & EDITORS
+# ==============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# ==============================================================================
+# OS GENERATED FILES
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
